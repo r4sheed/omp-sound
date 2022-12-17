@@ -1,0 +1,11 @@
+{
+	"user": "r4sheed",
+	"repo": "samp-sound",
+	"tag": "0.0.1",
+	"entry": "test.pwn",
+	"output": "gamemodes/test.amx",
+	"dependencies": [
+		"pawn-lang/samp-stdlib",
+		"pawn-lang/YSI-Includes@5.x"
+	]
+}
