@@ -1,6 +1,6 @@
 {
 	"user": "r4sheed",
-	"repo": "samp-sound",
+	"repo": "omp-sound",
 	"tag": "0.0.1",
 	"entry": "test.pwn",
 	"output": "gamemodes/test.amx",
