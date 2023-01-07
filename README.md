@@ -1,6 +1,6 @@
-# samp-sound
+# omp-sound
 
-[![sampctl](https://img.shields.io/badge/sampctl-samp--sound-2f2f2f.svg?style=for-the-badge)](https://github.com/r4sheed/samp-sound)
+[![sampctl](https://img.shields.io/badge/sampctl-omp--sound-2f2f2f.svg?style=for-the-badge)](https://github.com/r4sheed/omp-sound)
 
 <!--
 Short description of your library, why it's useful, some examples, pictures or
@@ -31,13 +31,13 @@ Happy Pawning!
 Simply install to your project:
 
 ```bash
-sampctl package install r4sheed/samp-sound
+sampctl package install r4sheed/omp-sound
 ```
 
 Include in your code and begin using the library:
 
 ```pawn
-#include <samp-sound>
+#include <omp-sound>
 ```
 
 ## Usage
