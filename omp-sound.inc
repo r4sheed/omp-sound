@@ -75,6 +75,7 @@
 	#define SOUND_PILOT_AWARD_TRACK_START 		(1187)
 	#define SOUND_PILOT_AWARD_TRACK_STOP 		(1188)
 	#define SOUND_SLAP 							(1190)
+	#define SOUND_RADAR_WARNING					(30600)
 #endif
 
 /*
