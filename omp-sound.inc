@@ -4378,8 +4378,8 @@ enum SOUND:__SOUND
 	SOUND__POOL_HIT_CUSHION_2 = 31809,
 	SOUND__POOL_HIT_WHITE = 31810,
 	SOUND_FIT_TYRE = 32000,
-	SOUND__CJ_EAT = 32200,
-	SOUND__CJ_PUKE = 32201,
+	SOUND_CJ_EAT = 32200,
+	SOUND_CJ_PUKE = 32201,
 	SOUND_CAR_SMASH_SIGN = 32400,
 	SOUND_CEILING_VENT_OPEN = 32401,
 	SOUND_HELI_SLASH_PED = 32402,
@@ -7152,3 +7152,22 @@ stock bool:PlaySoundAtPlayer(playerid, SOUND:soundid, Float:radius = 30.0)
 
 	return true;
 }
+
+/*
+ * <library>omp-sound</library>
+ * <param name="playerid">The ID of the player to stop the sound.</param>
+*/
+stock bool:StopPlayerSound(playerid)
+{
+	return PlayerPlaySound(playerid, 0, 0.0, 0.0, 0.0);
+}
+
+/*
+ * <library>omp-sound</library>
+ * <param name="playerid">The ID of the player to play the sound at.</param>
+ * <param name="soundid">The sound to play.</param>
+ * <param name="x">x coordinate for the sound to play at. (0 for no position)</param>
+ * <param name="y">y coordinate for the sound to play at. (0 for no position)</param>
+ * <param name="z">z coordinate for the sound to play at. (0 for no position)</param>
+*/
+native bool:PlayPlayerSound(playerid, SOUND:soundid, Float:x = 0.0000, Float:y = 0.0000, Float:z = 0.0000) = PlayerPlaySound;
