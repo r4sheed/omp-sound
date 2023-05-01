@@ -14,6 +14,10 @@
 
 #tryinclude <YSI_Data\y_iterate>
 
+/**
+ * <library>omp-sound</library>
+ * <summary>Sounds</summary>
+*/
 #define SOUND: __TAG(SOUND):
 enum SOUND:__SOUND
 {
